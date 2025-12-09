@@ -1,3 +1,5 @@
+
+
 export default function Home(){
     return (
         <div className="home-page-content">
@@ -22,9 +24,9 @@ export default function Home(){
                 </div>
             </section>
 
-            <section className="card" style={{ backgroundColor: 'var(--mira)', marginTop: '1.5rem' }}>
+            <section className="card" style={{ backgroundColor: 'var(--mira)', marginTop: '2rem' }}>
                 <h3 className="section-subtitle">Що ми пропонуємо</h3>
-                <ul className="list-disc mt-2">
+                <ul className="list-disc" style={{ marginTop: '0.5rem' }}>
                     <li>Стандартизований тест з 10 питань</li>
                     <li>Рекомендації з навчальних профілів та професій</li>
                     <li>Сторінка вибору сильних сторін та рекомендовані університети</li>
